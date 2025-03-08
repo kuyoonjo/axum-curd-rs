@@ -12,7 +12,7 @@ anyhow = "1.0.89"
 rest-model = "0.1.1"
 rest-model-postgres = "0.1.1"
 
-axum-curd-macro = { path = "../axum-curd-macro" }
+axum-curd-macro = { git = "https://github.com/kuyoonjo/axum-curd-rs", subdir = "axum-curd-macro" }
 
 [dev-dependencies]
 serde = { version = "1.0.210", features = ["derive"] }

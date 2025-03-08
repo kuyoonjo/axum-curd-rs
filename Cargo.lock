@@ -115,7 +115,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "axum",
- "axum-curd-macro",
+ "axum-curd-macro 0.1.0 (git+https://github.com/kuyoonjo/axum-curd-rs)",
  "paste",
  "rest-model",
  "rest-model-postgres",
@@ -126,6 +126,11 @@ dependencies = [
 [[package]]
 name = "axum-curd-macro"
 version = "0.1.0"
+
+[[package]]
+name = "axum-curd-macro"
+version = "0.1.0"
+source = "git+https://github.com/kuyoonjo/axum-curd-rs#867b7238596eb84644abd80832ffee0f2cabff86"
 
 [[package]]
 name = "backtrace"
